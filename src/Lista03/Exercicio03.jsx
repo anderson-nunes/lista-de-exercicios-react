@@ -7,6 +7,7 @@ const ContadorRegressivo = () => {
   });
 
   useEffect(() => {
+
     const regressiveTimer = setInterval(() => {
 
       if (time.minutes === 0 && time.seconds === 0) {

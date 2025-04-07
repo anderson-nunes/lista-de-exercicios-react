@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Exe06 = () => {
+const Ex06 = () => {
 
   const [numberPar, setNumberPar] = useState([2, 3, 5, 8, 19, 13])
 
@@ -18,4 +18,4 @@ const Exe06 = () => {
   )
 }
 
-export default Exe06
+export default Ex06

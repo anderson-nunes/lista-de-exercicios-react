@@ -9,7 +9,6 @@ const Exercicio01 = () => {
       <>
         <h1>Exercício 01</h1>
         {nomes.map((item, index) => (
-
           <div key={index}>
             <li>{item}</li>
           </div>

@@ -4,9 +4,10 @@ import Ex02 from './Ex02'
 import Ex03 from './Ex03'
 import Ex04 from './Ex04'
 import Ex05 from './Ex05'
-import Exe06 from './Exe06'
+import Ex06 from './Ex06'
 import Ex07 from './Ex07'
 import Ex08 from './Ex08'
+import Ex09 from './Ex09'
 
 
 const HomeExercicioUseState = () => {
@@ -44,7 +45,7 @@ const HomeExercicioUseState = () => {
       <br />
       <hr />
       <h3>Exercicio 06</h3>
-      <Exe06 />
+      <Ex06 />
       <br />
       <br />
       <br />
@@ -57,6 +58,12 @@ const HomeExercicioUseState = () => {
       <hr />
       <h3>Exercicio 08</h3>
       <Ex08 />
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h3>Exercicio 09</h3>
+      <Ex09 />
     </>
   )
 }

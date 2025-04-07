@@ -15,6 +15,8 @@ const RelogioDigital = () => {
     );
   }, []);
 
+
+  //EXEMPLO 1 DE COMO SE FAZ ESTE EXERCICIO
   // useEffect(() => {
   //   setInterval(
   //     () => {
@@ -43,8 +45,27 @@ const RelogioDigital = () => {
   //   );
   // }, []);
 
+  // const RelogioDigital = () => {
+
+  //   const [hora, setHora] = useState(new Date())
+
+  //   useEffect(() => {
+
+  //     const tempo = setInterval(() => {
+  //       setHora(new Date())
+
+  //     }, 1000)
+
+  //     return ()=> {
+  //     clearInterval(tempo)
+  //     }
+  //   }, [])
+  // }
+
+
   return (
     <div>
+      {/* <h2>{hora.toLocaleTimeString()}</h2> */}
       <h1>Data e Hora</h1>
       <h2>{currentDate}</h2>
     </div>
